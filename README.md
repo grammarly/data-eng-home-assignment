@@ -21,7 +21,7 @@ Features:
 - You are provided with an optional `filter` expression – when present, only count events for which `filter` 
 is true
 - You are provided with an optional `distinct` expression – when present, only count the first event for each unique `distinct` value and slot (earliest by `ts`)
-- You are provided with an optional `by` expression – when present, output the individual count for each (by,slot) combination, rather than only counting slot
+- (stretch) You are provided with an optional `by` expression – when present, output the individual count for each (by,slot) combination, rather than only counting slot
 
 Assume all dates and times are in Pacific Time (`America/Los_Angeles`) timezone.
 
