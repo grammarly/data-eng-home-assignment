@@ -1,9 +1,9 @@
 # Take Home Assignment
 
-Imagine you have a table available to you as a Spark dataframe. Table holds entries each of which is a recorded 
+Imagine you have a table available to you as a Spark dataframe. The table holds entries, each of which is a recorded 
 user action within some app.
 
-Table columns describe certain details about the event. Table will **at least** have the following columns:
+The table columns describe certain details about the event. The table will have,**at least**, the following columns:
 
 - ts (long, not null): event epoch timestamp in seconds
 
