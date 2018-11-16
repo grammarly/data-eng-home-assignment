@@ -26,5 +26,5 @@ is true
 Assume all dates and times are in Pacific Time (`America/Los_Angeles`) timezone.
 
 Using the Scala programming language is not required, but will be a **big** plus (feel free to use this project 
-as a starting point). We recommend using IntelliJ IDEA with the Scala plugin (available in a free trial 
-of the Ultimate edition).
+as a starting point). We recommend using IntelliJ IDEA with the Scala plugin (available in a [free trial 
+of the Ultimate edition](https://www.jetbrains.com/idea/download)).
