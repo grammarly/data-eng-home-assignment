@@ -8,6 +8,10 @@ val sparkVersion = "2.4.0"
 
 scalacOptions in ThisBuild ++= Seq("-feature", "-language:postfixOps", "-language:implicitConversions")
 
+resolvers += "Artifactory" at "https://grammarly.jfrog.io/grammarly/common-maven-sbt/"
+
+credentials += Credentials(Path.userHome / ".sbt" / ".credentials")
+
 libraryDependencies ++= Seq(
   "org.apache.spark" %% "spark-core" % sparkVersion,
   "org.apache.spark" %% "spark-sql" % sparkVersion,
